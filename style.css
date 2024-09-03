@@ -20,17 +20,17 @@ body{
 }
 .code{
     margin: auto;
-    width: 320px;
+    width: 275px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
     /* align-self: center; */
-    padding: 10px;
+    padding: 5px 0;
     border-radius: 10px;
-    height: 450px;
+    height: 460px;
     background-color: hsl(0, 0%, 100%);
-    box-shadow: 0px 15px 20px -15px #00000071;
+    box-shadow: 0px 15px 12px -18px #0000003f;
     /*0 offset-x, 15px offset-y, 20px le flou de l'ombre
     et -15px qui est l'étendu de l'ombres, qui reduit l'ombre
     uniquement vers le bas*/
@@ -38,17 +38,21 @@ body{
 }
 h3{
     font-weight: bold;
+    color: #23273de5;
+    margin-top: -40px;
+
 }
 p{
     font-weight: 400;
-    color: #00000071;
+    color: #130d0d71;
+    margin-top: -30px;
 }
 .code p, h3{
     text-align: center;
-    width: 90%;
+    width: 85%;
 }
 .code img{
     border-radius: 10px;
-    width: 295px;
-    margin-top: -5px;
+    width: 250px;
+    margin-top: -22px;
 }
