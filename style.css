@@ -21,6 +21,7 @@ body{
 .code{
     margin: auto;
     width: 275px;
+    max-width: 95%;
     display: flex;
     align-items: center;
     flex-direction: column;
